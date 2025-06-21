@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Ashritha Reddy</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a BTech student learning C++, Web Development, and building real projects!</p>
+  </section>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
+    
+    <div class="project-card">
+      <img src="images/to-do.png" alt="To-do App">
+      <h3>To-do App</h3>
+      <p>A simple to-do app to manage daily tasks.</p>
+      <a href="todo/index.html" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="images/portfolio.png" alt="Portfolio Website">
+      <h3>Portfolio Website</h3>
+      <p>This very portfolio you’re seeing!</p>
+      <a href="https://yourportfolio.com" target="_blank">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+
+  
+  <section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/xyzjdlpz" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="_replyto" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>© 2025 Ashritha. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
